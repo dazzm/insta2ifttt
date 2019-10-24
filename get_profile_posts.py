@@ -17,3 +17,6 @@ def catch_all(path):
     r = requests.post(input["callback_url"], data={ 'value1': post.url, 'value2': caption })
     return r.text
     
+
+if __name__ == "__main__":
+    app.run(debug=True)

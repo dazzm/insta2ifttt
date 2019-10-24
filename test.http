@@ -1,4 +1,4 @@
-GET  https://insta2ifttt.dazzm.now.sh/get_profile_posts
+GET  http://localhost:5000/get_profile_posts
 Content-Type: application/json
 
 {
