@@ -1,0 +1,8 @@
+GET  https://insta2ifttt.dazzm.now.sh/get_profile_posts
+Content-Type: application/json
+
+{
+    "callback_url": "https://apitesting.dazzm.now.sh/api/dump",
+    "users": ["nature", "earth", "discoverearth"]
+}
+
